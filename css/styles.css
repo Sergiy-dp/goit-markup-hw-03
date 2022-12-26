@@ -339,7 +339,7 @@ body {
   display: line-block;
   gap: 25px;
   align-items: center;
-  margin-bottom: 72px;
+  padding-bottom: 72px;
 }
 .about-item {
 }
