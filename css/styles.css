@@ -97,7 +97,7 @@ body {
 }
 .header-list {
   display: flex;
-  gap: 20px;
+  gap: 40px;
 }
 .header-item {
 }
@@ -146,6 +146,7 @@ body {
 
 .hero {
   background-color: #2e2f42;
+  padding-top: 190px;
 }
 .hero > .container {
   display: flex;
@@ -160,7 +161,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--first-title-color);
 
-  padding-top: 190px;
   margin-bottom: 45px;
   max-width: 496px;
 }
@@ -205,7 +205,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--second-title-color);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .strategy-text {
   font-weight: 400;
@@ -241,6 +241,7 @@ body {
 .team {
   background-color: var(--second-bg-color);
   padding-bottom: 120px;
+  padding-top: 120px;
 }
 .team > .container {
   display: flex;
@@ -253,7 +254,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-top: 120px;
+
   margin-bottom: 72px;
 }
 .team-list {
@@ -266,11 +267,14 @@ body {
   align-items: center;
   background-color: var(--first-btn-color);
 }
+.team-content {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .team-name {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 .team-position {
@@ -279,7 +283,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--rest-text-color);
-  padding-bottom: 32px;
 }
 .footer {
   background-color: #2e2f42;
@@ -293,7 +296,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-title-color);
-  margin-right: 75px;
 }
 .link {
 }
@@ -325,18 +327,19 @@ body {
 
 .about {
   align-items: center;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .about > .container {
   display: flex;
   justify-content: center;
-  margin-bottom: 72px;
-  margin-top: 96px;
 }
 .about-list {
   display: flex;
   display: line-block;
   gap: 25px;
   align-items: center;
+  margin-bottom: 72px;
 }
 .about-item {
 }
@@ -374,7 +377,6 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  margin-bottom: 120px;
 }
 
 .page-item {
@@ -391,7 +393,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--second-title-color);
   margin-bottom: 8px;
-  margin: 16px;
 }
 .page-after-text {
   font-weight: 400;
@@ -399,10 +400,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--rest-text-color);
-  margin: 16px;
 }
 .post-content {
-  padding: 32px 0;
+  padding: 32px 16px;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
