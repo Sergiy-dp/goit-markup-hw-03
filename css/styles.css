@@ -147,6 +147,7 @@ body {
 .hero {
   background-color: #2e2f42;
   padding-top: 190px;
+  padding-bottom: 185px;
 }
 .hero > .container {
   display: flex;
@@ -174,7 +175,6 @@ body {
   background-color: var(--first-bg-btn-color);
   cursor: pointer;
 
-  margin-bottom: 185px;
   min-width: 169px;
   height: 59px;
   border-radius: 4px;
